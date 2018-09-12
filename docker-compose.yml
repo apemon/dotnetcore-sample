@@ -1,0 +1,7 @@
+version: '3.4'
+
+services:
+  training:
+    image: bblb2bdev/samples
+    ports:
+    - "5000:80"

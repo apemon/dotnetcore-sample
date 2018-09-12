@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  samples:
+    image: bblb2bdev/samples
+    build:
+      context: .
+      dockerfile: samples/Dockerfile
